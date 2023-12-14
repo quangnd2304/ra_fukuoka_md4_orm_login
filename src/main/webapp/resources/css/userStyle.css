@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    flex-direction: row;
+}
+ul li a{
+    text-decoration: none;
+}
+ul li{
+    list-style-type: none;
+}
