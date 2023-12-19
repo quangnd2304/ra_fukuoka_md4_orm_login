@@ -18,8 +18,8 @@
     <div class="left">
       <ul>
         <li><a href="<%=request.getContextPath()%>/userController/findAll">User Management</a> </li>
-        <li><a href="">Categories Management</a> </li>
-        <li><a href="">Product Management</a> </li>
+        <li><a href="<%=request.getContextPath()%>/categoriesController/findAll">Categories Management</a> </li>
+        <li><a href="<%=request.getContextPath()%>/productController/findAll">Product Management</a></li>
       </ul>
     </div>
     <div class="content">
